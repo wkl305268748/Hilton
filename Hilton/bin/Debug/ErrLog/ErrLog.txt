@@ -1,0 +1,25 @@
+出现应用程序未处理的异常：2017/10/26 16:56:16
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 Hilton.Form1..ctor() 位置 E:\Gitlab\Hilton\Hilton\Form1.cs:行号 73
+   在 Hilton.Program.Main() 位置 E:\Gitlab\Hilton\Hilton\Program.cs:行号 36
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2017/10/26 16:56:45
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 Hilton.Form1..ctor() 位置 E:\Gitlab\Hilton\Hilton\Form1.cs:行号 73
+   在 Hilton.Program.Main() 位置 E:\Gitlab\Hilton\Hilton\Program.cs:行号 36
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2017/11/2 20:34:18
+Application UnhandledException:在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。;
+堆栈信息:   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 Hilton.Form1.myThread() 位置 C:\Users\Kenny\Source\Repos\Hilton\Hilton\Form1.cs:行号 173
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+---------------------------------------------------------

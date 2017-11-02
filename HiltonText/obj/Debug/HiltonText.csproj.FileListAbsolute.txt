@@ -1,0 +1,8 @@
+E:\Gitlab\Hilton\HiltonText\bin\Debug\HiltonText.exe
+E:\Gitlab\Hilton\HiltonText\bin\Debug\HiltonText.pdb
+E:\Gitlab\Hilton\HiltonText\obj\Debug\HiltonText.csprojResolveAssemblyReference.cache
+E:\Gitlab\Hilton\HiltonText\obj\Debug\HiltonText.Form1.resources
+E:\Gitlab\Hilton\HiltonText\obj\Debug\HiltonText.Properties.Resources.resources
+E:\Gitlab\Hilton\HiltonText\obj\Debug\HiltonText.csproj.GenerateResource.Cache
+E:\Gitlab\Hilton\HiltonText\obj\Debug\HiltonText.exe
+E:\Gitlab\Hilton\HiltonText\obj\Debug\HiltonText.pdb
