@@ -234,6 +234,9 @@ namespace Hilton
         
         private void btnBegin_Click(object sender, EventArgs e)
         {
+            if (hiltonModel.Count == 0) {
+                return;
+            }
 
             isComplated = true;
             textBox1.AppendText("开始执行操作  " + DateTime.Now.ToShortTimeString() + "\r\n");

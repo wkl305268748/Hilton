@@ -23,3 +23,40 @@ Application UnhandledException:在创建窗口句柄之前，不能在控件上�
    在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
    在 System.Threading.ThreadHelper.ThreadStart()
 ---------------------------------------------------------
+出现应用程序未处理的异常：2017/11/2 20:45:58
+Application UnhandledException:索引超出范围。必须为非负值并小于集合大小。
+参数名: index;
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 Hilton.Form1.getNextHiltonModel() 位置 C:\Users\Kenny\Source\Repos\Hilton\Hilton\Form1.cs:行号 150
+   在 Hilton.Form1.myThread() 位置 C:\Users\Kenny\Source\Repos\Hilton\Hilton\Form1.cs:行号 159
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+---------------------------------------------------------
+出现应用程序未处理的异常：2017/11/2 20:46:41
+Application UnhandledException:索引超出范围。必须为非负值并小于集合大小。
+参数名: index;
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 Hilton.Form1.getNextHiltonModel() 位置 C:\Users\Kenny\Source\Repos\Hilton\Hilton\Form1.cs:行号 150
+   在 Hilton.Form1.myThread() 位置 C:\Users\Kenny\Source\Repos\Hilton\Hilton\Form1.cs:行号 159
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+---------------------------------------------------------
+出现应用程序未处理的异常：2017/11/2 20:51:02
+Application UnhandledException:在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。;
+堆栈信息:   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 Hilton.Form1.myThread() 位置 C:\Users\Kenny\Source\Repos\Hilton\Hilton\Form1.cs:行号 178
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+---------------------------------------------------------
